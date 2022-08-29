@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Phone Number</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="range-div">
+        <h4>Input your phone number</h3>
+        <input id="range" type="range" name="" id="" min="0" max="9999999999" step="1" oninput="updateNumber()" onchange="updateNumber()">
+        <p id="range-output">500-000 00 00</p>
+        <button onclick="alert('Your number is: ' + document.getElementById('range-output').innerText)">Submit</button>
+    </div>
+
+    <div id="random-div">
+        <p id="random-output">012-345 67 89</p>
+        <h4>Is this your phone number?</h4>
+        <button onclick="alert('Your number is: ' + document.getElementById('random-output').innerText)">Yes</button>
+        <button onclick="randomNumber()">No</button>
+    </div>
+</body>
+</html>

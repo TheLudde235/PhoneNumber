@@ -1,0 +1,13 @@
+#range-div {
+    width: fit-content;
+    padding: 20px;
+    border: solid red;
+    margin: 10px;
+}
+
+#random-div {
+    width: fit-content;
+    padding: 20px;
+    border: solid dodgerblue;
+    margin: 10px;
+}
